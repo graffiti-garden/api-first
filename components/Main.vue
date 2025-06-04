@@ -151,7 +151,7 @@ ul.authors {
                 <li>
                     <figure>
                         <img
-                            data-src="./media/theia.jpg"
+                            src="../media/theia.jpg"
                             alt="Theia Henderson's face"
                             data-preload
                         />
@@ -163,7 +163,7 @@ ul.authors {
                 <li>
                     <figure>
                         <img
-                            data-src="./media/karger.jpg"
+                            src="../media/karger.jpg"
                             alt="David Karger's face"
                             data-preload
                         />
@@ -179,7 +179,7 @@ ul.authors {
                 <li>
                     <figure>
                         <img
-                            data-src="./media/ddc.jpg"
+                            src="../media/ddc.jpg"
                             alt="David Clark's face"
                             data-preload
                         />
@@ -283,7 +283,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/email.png"
+                            src="../media/email.png"
                             alt="Screenshot of a 90's email client"
                         />
                         <figcaption>IMAP</figcaption>
@@ -292,7 +292,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/usenet.png"
+                            src="../media/usenet.png"
                             alt="Screenshot of USENET"
                         />
                         <figcaption>NNTP</figcaption>
@@ -301,7 +301,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/irc.png"
+                            src="../media/irc.png"
                             alt="mIRC32, a 32-bit version of the IRC internet chat program mIRC, from back in the Windows 95 and Windows 98 era"
                         />
                         <figcaption>IRC</figcaption>
@@ -310,7 +310,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/netscape.jpg"
+                            src="../media/netscape.jpg"
                             alt="NSCSA Mosaic for Windows (1993)"
                         />
                         <figcaption>HTTP</figcaption>
@@ -327,7 +327,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/google.png"
+                            src="../media/google.png"
                             alt="A screenshot of amazon.com from 1999"
                         />
                         <figcaption>Google</figcaption>
@@ -336,7 +336,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/amazon.png"
+                            src="../media/amazon.png"
                             alt="A screenshot of amazon.com from 1999"
                         />
                         <figcaption>Amazon</figcaption>
@@ -345,7 +345,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/facebook.jpg"
+                            src="../media/facebook.jpg"
                             alt="A screenshot of Welcome to Thefacebook"
                         />
                         <figcaption>Facebook</figcaption>
@@ -354,7 +354,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/twitter.png"
+                            src="../media/twitter.png"
                             alt="A screenshot of Welcome to Thefacebook"
                         />
                         <figcaption>Twitter</figcaption>
@@ -403,7 +403,7 @@ ul.authors {
                 >
                     <img
                         class="fragment"
-                        data-src="./media/analytica.png"
+                        src="../media/analytica.png"
                         data-preload
                     />
                 </a>
@@ -413,7 +413,7 @@ ul.authors {
                 >
                     <img
                         class="fragment"
-                        data-src="./media/myanmar.png"
+                        src="../media/myanmar.png"
                         data-preload
                     />
                 </a>
@@ -422,7 +422,7 @@ ul.authors {
                 >
                     <img
                         class="fragment"
-                        data-src="./media/protocols-not-platforms.png"
+                        src="../media/protocols-not-platforms.png"
                         data-preload
                     />
                 </a>
@@ -439,7 +439,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/signal-logo.svg"
+                            src="../media/signal-logo.svg"
                             data-preload
                             alt="The signal logo"
                         />
@@ -449,7 +449,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/mastodon-logo.svg"
+                            src="../media/mastodon-logo.svg"
                             data-preload
                             alt="The Mastodon Logo"
                         />
@@ -459,7 +459,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/bluesky-logo.svg"
+                            src="../media/bluesky-logo.svg"
                             alt="The BlueSky butterfly logo"
                         />
                         <figcaption>AT Protocol</figcaption>
@@ -468,7 +468,7 @@ ul.authors {
                 <li class="fragment">
                     <figure>
                         <img
-                            data-src="./media/element-logo.svg"
+                            src="../media/element-logo.svg"
                             data-preload
                             alt="The element logo"
                         />
@@ -579,16 +579,12 @@ ul.authors {
         <section class="leak">
             <h3>Protocols Leak Complexity</h3>
 
-            <img class="r-stretch" data-src="./media/leak.png" data-preload />
+            <img class="r-stretch" src="../media/leak.png" data-preload />
         </section>
         <section>
             <h3>Protocols Constrain</h3>
 
-            <img
-                class="r-stretch"
-                data-src="./media/constrain.png"
-                data-preload
-            />
+            <img class="r-stretch" src="../media/constrain.png" data-preload />
         </section>
         <section class="future-proof">
             <h3>Protocols are not future proof</h3>
@@ -597,9 +593,9 @@ ul.authors {
                 class="fragment custom blur future-apps"
                 data-fragment-index="3"
             >
-                <img data-src="./media/xmpp-1.png" data-preload />
-                <img data-src="./media/xmpp-2.png" data-preload />
-                <img data-src="./media/xmpp-3.png" data-preload />
+                <img src="../media/xmpp-1.png" data-preload />
+                <img src="../media/xmpp-2.png" data-preload />
+                <img src="../media/xmpp-3.png" data-preload />
             </div>
             <div>↑</div>
             <div class="fragment custom blur" data-fragment-index="2">
@@ -660,7 +656,7 @@ ul.authors {
                 <img
                     width="100%"
                     class="fragment"
-                    data-src="./media/horseless.png"
+                    src="../media/horseless.png"
                     alt="A horseless carriage, a car, from the 1900's with reigns"
                 />
             </div>
@@ -719,7 +715,7 @@ ul.authors {
 
         <section id="uris">
             <h3>URIs</h3>
-            <img class="r-stretch" data-src="./media/uri.jpg" data-preload />
+            <img class="r-stretch" src="../media/uri.jpg" data-preload />
         </section>
 
         <!-- <section>
