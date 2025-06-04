@@ -1,0 +1,49 @@
+.reveal .progress span {
+    transition: none;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.fragment.border.visible {
+    border: 2px solid white;
+    border-radius: 1rem;
+    background: #333333;
+}
+
+ul.image-grid {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    li {
+        flex: 1 0 calc(50% - 2rem);
+        box-sizing: border-box;
+        margin: 1rem;
+    }
+
+    figure {
+        text-align: center;
+        margin: 0;
+    }
+
+    img {
+        margin: 0;
+        width: 100%;
+        max-height: 12rem;
+    }
+}
+
+.mau td:nth-child(2) {
+    text-align: right;
+}
+
+strong {
+    color: #9dc5f9;
+}
